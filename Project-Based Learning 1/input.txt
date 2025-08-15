@@ -1,0 +1,80 @@
+2001  
+Toan Cao Cap Tap 1  
+Nguyen Dinh Tri  
+NXBGD Viet Nam  
+2006  
+6
+6
+0
+2002  
+Toan Cao Cap Tap 2  
+Nguyen Dinh Tri  
+NXBGD Viet Nam  
+2006  
+10
+10
+0
+2003  
+Vat Ly Dai Cuong  
+Pham Le Ha Phuong
+NXBGD  
+2008  
+3
+3
+0
+2004  
+Co Hoc Luong Tu  
+Cao Long Van  
+NXBGD  
+2009  
+10
+10
+0
+2005  
+Dien Dong Hoc  
+Le Van Long
+NXBGD  
+2010  
+10
+10
+0
+2006  
+Giao Trinh Lap Trinh C++  
+Nguyen Thi My Lan
+NXB Tre  
+2016 
+10 
+10
+0
+2007  
+Lap Trinh Python  
+Le Thi Tuong Vi
+NXB Tre  
+2018  
+2
+2
+0
+2008  
+Giao Trinh Tri Tue Nhan Tao  
+Nguyen Thi Bich  
+NXB Dai Hoc Quoc Gia  
+2021  
+10
+10
+0
+2009  
+Mang May Tinh Va Internet  
+Vo Anh Khoa
+NXB Tre  
+2020  
+3
+3
+0
+2010  
+An Toan Thong Tin  
+Le Van Khoa  
+NXB Tre  
+2022 
+5 
+5
+0

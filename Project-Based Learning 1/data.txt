@@ -1,0 +1,168 @@
+1111
+Toan
+Nguyen Van A
+NXB GD
+2005
+10
+10
+0
+1001
+Lap Trinh Java                
+Mai Van Hao            
+NXB Tre                  
+2019
+15
+10
+5
+1002
+Co So Du Lieu                 
+Pham Thi Hanh             
+NXB Giao Duc             
+2017
+5
+0
+5
+1003
+Thiet Ke Web                  
+Mai Van Tien            
+NXB Tre                  
+2021
+10
+10
+0
+1004
+Tri Tue Nhan Tao Nang Cao     
+Vo Thi Le        
+NXB Dai Hoc Quoc Gia     
+2023
+20
+2
+18
+1005
+Cau Truc Du Lieu & Giai Thuat 
+Nguyen Vu An            
+NXB Tre                  
+2015
+10
+9
+1
+1006
+Ky Thuat Lap Trinh            
+Nguyen Thi Yen Nhi           
+NXB Giao Duc             
+2013
+15
+5
+10
+1007
+Huong Doi Tuong Trong C++     
+Pham Van Hoan            
+NXB Tre                  
+2016
+9
+0
+9
+1008
+An Toan Mang May Tinh         
+Le Van Khoa              
+NXB Tre                  
+2023
+10
+6
+4
+1009
+Triet Hoc Mac Lenin           
+Hoang Thi Anh           
+NXB Chinh Tri            
+2012
+20
+0
+20
+1010
+Khoa Hoc Va Doi Song          
+Pham Nhu Quynh   
+NXB Tre                  
+2020
+5
+0
+5
+1011
+He Dieu Hanh                  
+Le Thi Ha Vi            
+NXB Tre                  
+2018
+20
+20
+0
+1012
+Giao Trinh Java Nang Cao      
+Trinh Xuan Bao        
+NXB Giao Duc             
+2021
+30
+25
+5
+1013
+Ky Thuat So                   
+Tran Van Hien           
+NXBGD                    
+2016
+45
+44
+1
+1014
+Phan Tich Thiet Ke He Thong   
+Bui Thi Xuan Thanh           
+NXB Khoa Hoc             
+2019
+56
+26
+30
+1015
+Cong Nghe Phan Mem            
+Le Van Hieu              
+NXB Tre                  
+2020
+14
+4
+10
+1016
+Khoa Hoc Du Lieu              
+Nguyen Van Men           
+NXB Giao Duc             
+2023
+9
+0
+9
+1017
+Machine Learning Co Ban       
+Huynh T.Kim Hoang             
+NXB Tre                  
+2022
+9
+2
+7
+1018
+Ky Thuat Lap Trinh
+Nguyen Thi My Lan
+NXB Dai Hoc Quoc Gia     
+2023
+25
+20
+5
+1019
+Thuc Tap Co So Du Lieu        
+Bui Van Nhan            
+NXB Tre                  
+2017
+2
+2
+0
+1020
+Toan Cao Cap
+Nguyen Thai An
+NXB Giao Duc
+2015
+8
+8
+0
