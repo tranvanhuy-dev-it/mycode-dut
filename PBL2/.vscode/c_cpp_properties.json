@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "_HAS_STD_BYTE=0",
+                "NOMINMAX",
+                "WIN32_LEAN_AND_MEAN"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "C:/mingw64/bin/g++.exe",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/PBL2/src",
+                "D:/PBL2/src/Entity",
+                "D:/PBL2/src/Include",
+                "D:/PBL2/src/Map",
+                "D:/PBL2/src/UI",
+                // "D:/PBL2/src/UX",
+                "C:/SFML/include",
+                "C:/mingw64/include",
+                "C:/mingw64/x86_64-w64-mingw32/include",
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+                "C:/mingw64/include/c++/13.1.0"
+
+            ]
+        }
+    ],
+    "version": 4
+}

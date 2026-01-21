@@ -1,0 +1,240 @@
+import React from "react";
+
+export default function HVACLanding() {
+  return (
+    <div className="min-h-screen bg-gray-50 text-gray-800">
+      {/* NAVBAR */}
+      <header className="bg-white shadow-sm sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-sky-600 to-indigo-600 flex items-center justify-center text-white font-bold">LR</div>
+            <div>
+              <h1 className="text-lg font-semibold">Công ty Lắp đặt Điện Lạnh Lộc Phát</h1>
+              <p className="text-sm text-gray-500">Giải pháp điều hòa, lạnh công nghiệp cho công trình lớn</p>
+            </div>
+          </div>
+
+          <nav className="hidden md:flex items-center gap-6 text-sm">
+            <a href="#services" className="hover:text-sky-600">Dịch vụ</a>
+            <a href="#projects" className="hover:text-sky-600">Dự án</a>
+            <a href="#about" className="hover:text-sky-600">Về chúng tôi</a>
+            <a href="#contact" className="hover:text-sky-600">Liên hệ</a>
+          </nav>
+
+          <div className="hidden md:flex items-center gap-3">
+            <a href="tel:+840123456789" className="px-4 py-2 rounded-md bg-sky-600 text-white text-sm">Gọi ngay: 0123 456 789</a>
+          </div>
+
+          <button className="md:hidden p-2 rounded-md border">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      {/* HERO */}
+      <section className="bg-white">
+        <div className="max-w-7xl mx-auto px-6 py-16 grid gap-10 md:grid-cols-2 items-center">
+          <div>
+            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight">Giải pháp điện lạnh chuyên nghiệp cho công trình lớn</h2>
+            <p className="mt-4 text-gray-600">Từ thiết kế, cung cấp thiết bị đến thi công - vận hành, chúng tôi đảm bảo hệ thống lạnh hoạt động ổn định, tiết kiệm năng lượng và phù hợp với tiêu chuẩn công nghiệp.</p>
+
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a href="#contact" className="px-6 py-3 bg-sky-600 text-white rounded-md shadow">Yêu cầu báo giá</a>
+              <a href="#projects" className="px-6 py-3 border rounded-md">Xem dự án tiêu biểu</a>
+            </div>
+
+            <ul className="mt-8 grid grid-cols-2 gap-4 text-sm text-gray-600">
+              <li>✓ Thiết kế hệ thống AHU/FCU</li>
+              <li>✓ Lắp đặt kho lạnh công nghiệp</li>
+              <li>✓ Hệ thống VRF/VRV cho tòa nhà</li>
+              <li>✓ Bảo trì & vận hành theo hợp đồng</li>
+            </ul>
+          </div>
+
+          <div className="relative">
+            <div className="w-full h-80 md:h-96 rounded-lg bg-gradient-to-br from-sky-100 to-white shadow-inner flex items-center justify-center">
+              <div className="text-center px-6">
+                <div className="inline-block p-6 bg-white rounded-lg shadow-md">
+                  <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" className="mx-auto mb-4">
+                    <path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M3 8l7-5 7 5v8a3 3 0 01-3 3H6a3 3 0 01-3-3V8z" />
+                  </svg>
+                  <h3 className="font-semibold">Thiết kế & Thi công</h3>
+                  <p className="text-sm text-gray-500 mt-2">Áp dụng tiêu chuẩn quốc tế, tối ưu chi phí hoạt động.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SERVICES */}
+      <section id="services" className="max-w-7xl mx-auto px-6 py-12">
+        <h3 className="text-2xl font-bold">Dịch vụ của chúng tôi</h3>
+        <p className="text-gray-600 mt-2">Cung cấp giải pháp toàn diện cho các dự án công nghiệp, thương mại và tòa nhà lớn.</p>
+
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          <ServiceCard title="Thiết kế hệ thống" desc="Thiết kế HVAC, bố trí ống gió, tính toán tải lạnh theo tiêu chuẩn." />
+          <ServiceCard title="Cung cấp thiết bị" desc="Máy nén, dàn lạnh, AHU/FCU, kho lạnh, vật tư phụ chính hãng." />
+          <ServiceCard title="Thi công & Lắp đặt" desc="Lắp đặt chuyên nghiệp cho dự án quy mô lớn, giám sát chất lượng." />
+          <ServiceCard title="Vận hành & Bảo trì" desc="Hợp đồng BMS, bảo trì định kỳ, tối ưu hiệu suất hệ thống." />
+          <ServiceCard title="Tư vấn tiết kiệm năng lượng" desc="Áp dụng giải pháp tiết kiệm điện (inverter, tối ưu điều khiển)." />
+          <ServiceCard title="Hệ thống kho lạnh" desc="Thiết kế và thi công kho lạnh bảo quản thực phẩm, dược phẩm." />
+        </div>
+      </section>
+
+      {/* PROJECTS */}
+      <section id="projects" className="bg-white py-12">
+        <div className="max-w-7xl mx-auto px-6">
+          <h3 className="text-2xl font-bold">Dự án tiêu biểu</h3>
+          <p className="text-gray-600 mt-2">Một số công trình lớn chúng tôi đã thực hiện.</p>
+
+          <div className="mt-6 grid gap-6 md:grid-cols-3">
+            <ProjectCard title="Nhà máy chế biến thực phẩm - Bình Dương" location="Bình Dương" size="Kho lạnh 1500 m²" />
+            <ProjectCard title="Tòa nhà văn phòng - Hà Nội" location="Hà Nội" size="Hệ thống VRF 120 HP" />
+            <ProjectCard title="Trung tâm thương mại - Đà Nẵng" location="Đà Nẵng" size="AHU & BMS" />
+          </div>
+
+          <div className="mt-6 text-center">
+            <a href="#contact" className="px-6 py-3 bg-indigo-600 text-white rounded-md">Nhận tư vấn dự án</a>
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT */}
+      <section id="about" className="max-w-7xl mx-auto px-6 py-12">
+        <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h3 className="text-2xl font-bold">Về Lộc Phát</h3>
+            <p className="mt-4 text-gray-600">Với hơn 10 năm kinh nghiệm trong lĩnh vực điện lạnh công nghiệp, chúng tôi tự hào đem đến giải pháp toàn diện cho chủ đầu tư: từ khảo sát, thiết kế, thi công đến vận hành. Đội ngũ kỹ sư chuyên môn cao, trang thiết bị nhập khẩu và hệ thống quản lý chất lượng chặt chẽ.</p>
+
+            <ul className="mt-6 grid grid-cols-2 gap-3 text-sm text-gray-700">
+              <li>• Chứng chỉ thi công chuyên ngành</li>
+              <li>• Hợp đồng bảo hành rõ ràng</li>
+              <li>• Đội ngũ kỹ sư & kỹ thuật viên tận tâm</li>
+              <li>• Hệ thống quản lý chất lượng ISO-ready</li>
+            </ul>
+          </div>
+
+          <div className="rounded-lg overflow-hidden shadow">
+            <div className="w-full h-64 bg-gray-100 flex items-center justify-center">
+              <span className="text-gray-400">Ảnh dự án / đội ngũ (đặt ảnh ở đây)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section id="contact" className="bg-gradient-to-r from-sky-50 to-white py-12">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-start">
+          <div>
+            <h3 className="text-2xl font-bold">Liên hệ nhận tư vấn & báo giá</h3>
+            <p className="text-gray-600 mt-2">Gửi thông tin dự án, chúng tôi sẽ phản hồi trong 24 giờ làm việc.</p>
+
+            <div className="mt-6 grid gap-4">
+              <ContactInfo icon="phone" label="Hotline" value="0123 456 789" />
+              <ContactInfo icon="mail" label="Email" value="info@locphat.com.vn" />
+              <ContactInfo icon="map" label="Trụ sở" value="KCN VSIP, Bình Dương" />
+            </div>
+          </div>
+
+          <div>
+            <form className="bg-white p-6 rounded-lg shadow-md">
+              <label className="block text-sm font-medium">Tên công ty</label>
+              <input className="mt-1 block w-full border rounded px-3 py-2" placeholder="Tên công ty / chủ đầu tư" />
+
+              <label className="block text-sm font-medium mt-4">Người liên hệ</label>
+              <input className="mt-1 block w-full border rounded px-3 py-2" placeholder="Họ và tên" />
+
+              <label className="block text-sm font-medium mt-4">Số điện thoại / Email</label>
+              <input className="mt-1 block w-full border rounded px-3 py-2" placeholder="Số điện thoại hoặc email" />
+
+              <label className="block text-sm font-medium mt-4">Mô tả dự án (tùy chọn)</label>
+              <textarea className="mt-1 block w-full border rounded px-3 py-2" rows={4} placeholder="Quy mô, địa điểm, yêu cầu kỹ thuật..."></textarea>
+
+              <div className="mt-4 text-right">
+                <button type="button" className="px-5 py-2 bg-sky-600 text-white rounded">Gửi yêu cầu</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      {/* FOOTER */}
+      <footer className="bg-slate-900 text-slate-200 py-8">
+        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-6">
+          <div>
+            <h4 className="font-semibold">Lộc Phát</h4>
+            <p className="text-sm text-slate-400 mt-2">Giải pháp điện lạnh cho công trình công nghiệp và thương mại.</p>
+            <p className="text-sm text-slate-400 mt-3">© {new Date().getFullYear()} Lộc Phát. All rights reserved.</p>
+          </div>
+
+          <div>
+            <h5 className="font-semibold">Dịch vụ</h5>
+            <ul className="text-sm text-slate-400 mt-2 space-y-1">
+              <li>Thiết kế hệ thống</li>
+              <li>Cung cấp thiết bị</li>
+              <li>Thi công & lắp đặt</li>
+            </ul>
+          </div>
+
+          <div>
+            <h5 className="font-semibold">Liên hệ</h5>
+            <p className="text-sm text-slate-400 mt-2">Hotline: 0123 456 789</p>
+            <p className="text-sm text-slate-400">Email: info@locphat.com.vn</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+
+/* ------------------ Reusable subcomponents ------------------ */
+
+function ServiceCard({ title, desc }) {
+  return (
+    <div className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
+      <div className="w-12 h-12 rounded-md bg-sky-50 flex items-center justify-center mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4" />
+        </svg>
+      </div>
+      <h4 className="font-semibold">{title}</h4>
+      <p className="text-sm text-gray-600 mt-2">{desc}</p>
+    </div>
+  );
+}
+
+function ProjectCard({ title, location, size }) {
+  return (
+    <div className="bg-white rounded-lg overflow-hidden shadow">
+      <div className="w-full h-40 bg-gray-100 flex items-center justify-center">Ảnh dự án</div>
+      <div className="p-4">
+        <h5 className="font-semibold">{title}</h5>
+        <p className="text-sm text-gray-600 mt-1">{location} • {size}</p>
+        <div className="mt-3 flex items-center justify-between">
+          <a className="text-sky-600 text-sm">Xem chi tiết</a>
+          <span className="text-sm text-gray-500">Hoàn thành</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ContactInfo({ icon, label, value }) {
+  return (
+    <div className="flex items-start gap-3">
+      <div className="w-10 h-10 flex items-center justify-center rounded bg-white shadow"> 
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-sky-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={icon === 'phone' ? 'M3 5a2 2 0 012-2h2.6a1 1 0 01.97.757l.7 3a1 1 0 01-.24.9L7.4 11.6a16 16 0 006.9 6.9l3.2-1.2a1 1 0 01.9-.24l3 .7A1 1 0 0121 21.4V24a2 2 0 01-2 2H5a2 2 0 01-2-2V5z' : icon === 'mail' ? 'M3 8l7.5 4.5L18 8' : 'M3 7h18v10H3z'} />
+        </svg>
+      </div>
+      <div>
+        <div className="text-sm font-medium">{label}</div>
+        <div className="text-sm text-gray-600">{value}</div>
+      </div>
+    </div>
+  );
+}

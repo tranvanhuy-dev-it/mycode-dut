@@ -1,0 +1,15 @@
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.GeneratedMSBuildEditorConfig.editorconfig
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.AssemblyInfoInputs.cache
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.AssemblyInfo.cs
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.csproj.CoreCompileInputs.cache
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.sourcelink.json
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/bin/Debug/net10.0/Buoi2
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/bin/Debug/net10.0/Buoi2.deps.json
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/bin/Debug/net10.0/Buoi2.runtimeconfig.json
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/bin/Debug/net10.0/Buoi2.dll
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/bin/Debug/net10.0/Buoi2.pdb
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.dll
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/refint/Buoi2.dll
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.pdb
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/Buoi2.genruntimeconfig.cache
+/media/tranvanhuy/DATA1/DUT/CODE/Fundamental courses of the major/DotNET/Buoi2/obj/Debug/net10.0/ref/Buoi2.dll
